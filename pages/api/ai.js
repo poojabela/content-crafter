@@ -2,7 +2,7 @@ import fetch from "isomorphic-fetch"
 
 const prompts = {
     caption: "Write an caption for:",
-    blog: "Write blog on :",
+    blog: "Write blog on:",
     email: "Write an email for:",
     greeting: "Write creative and personalized greetings for:",
     heading: "Create an Eye-Catching Headline for:",
