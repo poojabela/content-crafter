@@ -43,11 +43,11 @@ export default async function handler (req, res) {
                 error: "Error: OpenAI is drunk!"
             }))
         }
+    } else {
+        res.send(JSON.stringify({
+            error: "Error: Not supported!"
+        }))
     }
-
-    res.send(JSON.stringify({
-        error: "Error: Not supported!"
-    }))
 }
 
 
