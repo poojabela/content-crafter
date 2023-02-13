@@ -1,3 +1,5 @@
+import fetch from "isomorphic-fetch"
+
 const prompts = {
     caption: "Write an caption for:",
     blog: "Write blog on :",
